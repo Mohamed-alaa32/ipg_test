@@ -1,0 +1,5 @@
+<launch>
+<node name="purepursuit_controller" pkg="ipgtesting" type="purepursuit_node.py" output="screen"></node>
+<node name="waypointspublisher" pkg="ipgtesting" type="waypointspublisher.py"></node>
+<node name="statepublisher" pkg="ipgtesting" type="statepublisher.py"></node>
+</launch>

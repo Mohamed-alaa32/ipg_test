@@ -1,0 +1,8 @@
+prefix=/home/mohammed/IPGtesting/devel
+
+Name: ipgtesting
+Description: Description of ipgtesting
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
